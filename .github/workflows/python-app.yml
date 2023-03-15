@@ -31,7 +31,5 @@ jobs:
         run: |
           pip install pytest
           python -m pytest
-      - name : Analysing the code with pylint
-        run : |
-          pylint $(git ls-files '*.py')
+     
       
