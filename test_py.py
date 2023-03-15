@@ -1,7 +1,7 @@
 import app 
 
-def test_print():
-    assert app.print_function("hello") 
+def test_fonc():
+    assert app.funct(1) == 2
 
 def test_fun1():
     assert app.function_1(2,3) == 5
